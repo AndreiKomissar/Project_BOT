@@ -47,6 +47,7 @@ async def cmd_start(message: Message):
     await message.answer("Кто лучший учитель в Нике?", reply_markup=keyboard)
 @dp.message(F == "Трунов") 
 async def trunov_good(message: Message):
+    print(1)
     await message.reply("Пятерка по информатике!")
 
 
